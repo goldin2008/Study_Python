@@ -3,11 +3,17 @@
 Python for Informatics: Exploring Information
 
 English
+
 Py4Inf-01-Intro.pdf
+
 Py4Inf-02-Expressions.pdf
+
 Py4Inf-03-Conditionals.pdf
+
 Py4Inf-04-Functions.pdf
+
 Py4Inf-05-Iteration.pdf
+
 Py4Inf-06-Strings.pdf
 Py4Inf-07-Files.pdf
 Py4Inf-08-Lists.pdf
