@@ -10,6 +10,9 @@ Using Databases with Python – Chapters 14-15
 
 Python for Informatics: Exploring Information
 
+
+
+
 English
 
 Py4Inf-01-Intro.pdf
