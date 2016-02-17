@@ -129,3 +129,10 @@ print t2
 
 t3 = t1 + [3]
 print t3
+
+'''
+Don’t forget that most list methods modify the argument and return None.
+This is the opposite of the string methods, which return a new string and
+leave the original alone.
+
+'''
