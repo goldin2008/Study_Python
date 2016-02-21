@@ -1,22 +1,23 @@
+# Chapter 12 Network Programming
 
 '''
 Python program that makes a connection to a web server and follows the
 rules of the HTTP protocol to requests a document and display what the server
 sends back.
 '''
-# import socket
-#
-# mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-# mysock.connect(('www.py4inf.com', 80))
-# mysock.send('GET http://www.py4inf.com/code/romeo.txt HTTP/1.0\n\n')
-#
-# while True:
-# 	data = mysock.recv(512)
-# 	if ( len(data) < 1 ) :
-# 		break
-# 	print data
-#
-# mysock.close()
+import socket
+
+mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+mysock.connect(('www.py4inf.com', 80))
+mysock.send('GET http://www.py4inf.com/code/romeo.txt HTTP/1.0\n\n')
+
+while True:
+	data = mysock.recv(512)
+	if ( len(data) < 1 ) :
+		break
+	print data
+
+mysock.close()
 
 
 #Retrieving an image over HTTP
@@ -24,33 +25,33 @@ sends back.
 send and receive data over HTTP using the socket library
 '''
 
-# import socket
-# import time
-# mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-# mysock.connect(('www.py4inf.com', 80))
-# mysock.send('GET http://www.py4inf.com/cover.jpg HTTP/1.0\n\n')
-# count = 0
-# picture = "";
-#
-# while True:
-# 	data = mysock.recv(5120)
-# 	if ( len(data) < 1 ) : break
-# 	# time.sleep(0.25)
-# 	count = count + len(data)
-# 	print len(data),count
-# 	picture = picture + data
-#
-# mysock.close()
-#
-# # Look for the end of the header (2 CRLF)
-# pos = picture.find("\r\n\r\n");
-# print 'Header length',pos
-# print picture[:pos]
-# # Skip past the header and save the picture data
-# picture = picture[pos+4:]
-# fhand = open("stuff.jpg","wb")
-# fhand.write(picture);
-# fhand.close()
+import socket
+import time
+mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+mysock.connect(('www.py4inf.com', 80))
+mysock.send('GET http://www.py4inf.com/cover.jpg HTTP/1.0\n\n')
+count = 0
+picture = "";
+
+while True:
+	data = mysock.recv(5120)
+	if ( len(data) < 1 ) : break
+	# time.sleep(0.25)
+	count = count + len(data)
+	print len(data),count
+	picture = picture + data
+
+mysock.close()
+
+# Look for the end of the header (2 CRLF)
+pos = picture.find("\r\n\r\n");
+print 'Header length',pos
+print picture[:pos]
+# Skip past the header and save the picture data
+picture = picture[pos+4:]
+fhand = open("stuff.jpg","wb")
+fhand.write(picture);
+fhand.close()
 
 
 '''
@@ -63,10 +64,10 @@ the data to us.
 Again, once we have opened the web page, we can read it like a local file.
 '''
 
-# import urllib
-# fhand = urllib.urlopen('http://www.py4inf.com/code/romeo.txt')
-# for line in fhand:
-# 	print line.strip()
+import urllib
+fhand = urllib.urlopen('http://www.py4inf.com/code/romeo.txt')
+for line in fhand:
+	print line.strip()
 
 
 '''
@@ -78,13 +79,13 @@ est possible matching string and a greedy match tries to find the largest possib
 matching string.
 '''
 
-# import urllib
-# import re
-# url = raw_input('Enter - ')
-# html = urllib.urlopen(url).read()
-# links = re.findall('href="(http://.*?)"', html)
-# for link in links:
-# 	print link
+import urllib
+import re
+url = raw_input('Enter - ')
+html = urllib.urlopen(url).read()
+links = re.findall('href="(http://.*?)"', html)
+for link in links:
+	print link
 
 
 
@@ -134,16 +135,16 @@ characters to the cover.jpg file before retrieving the next 100,000 characters o
 data from the web.
 '''
 
-# import urllib
-# img = urllib.urlopen('http://www.py4inf.com/cover.jpg')
-# fhand = open('cover.jpg', 'w')
-# size = 0
-#
-# while True:
-# 	info = img.read(100000)
-# 	if len(info) < 1 : break
-# 	size = size + len(info)
-# 	fhand.write(info)
-#
-# print size,'characters copied.'
-# fhand.close()
+import urllib
+img = urllib.urlopen('http://www.py4inf.com/cover.jpg')
+fhand = open('cover.jpg', 'w')
+size = 0
+
+while True:
+	info = img.read(100000)
+	if len(info) < 1 : break
+	size = size + len(info)
+	fhand.write(info)
+
+print size,'characters copied.'
+fhand.close()
