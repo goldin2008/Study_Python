@@ -57,4 +57,19 @@ Summary for data structure
 33，       人工智能基础：图灵测试、自然语言处理，A* 算法  
 34，       P／Np 问题： TSP问题  
 35，       公钥／私钥： RSA: 证书  
-36,           Simple Regular Expression, e.g: match valid IP v4 address  
+36,           Simple Regular Expression, e.g: match valid IP v4 address   
+
+线程 vs 进程(Yelp)        11/2015  
+补码/反码(Yelp)        11/2015  
+内存、硬盘、闪存(Uber)        10/2015  
+并行/并发(Uber)        10/2015  
+死锁(Centrify)                12/2015  
+虚拟内存(LinkedIn)        11/2015  
+TCP/IP三次握手(IBM)                10/2015  
+TCP和UDP区别(LinkedIn)        11/2015  
+一个百万级别用户量的WebService网页加载速度太慢，原因是什么(LinkedIn)      11/2015  
+输入www.google.com 会发生什么  
+
+
+这几道问题是实际考的～  
+这是我阅读计算机科学概论第10版结合自己面试经历总结出来的知识点  
