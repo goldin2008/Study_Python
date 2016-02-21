@@ -1,5 +1,5 @@
-# encoding=utf8
 # Chapter 10 Tuples
+# encoding=utf8
 
 t = tuple()
 print t
