@@ -9,9 +9,16 @@ Python for Informatics: Exploring Information
 
 Summary for data structure
 
-Strings are immutable  
-Lists are mutalbe  
-Tuples are immutable  
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+| Data Structure | Description |
+| --- | --- |
+| `Strings` | *Immutable* |
+| `Lists` | **Mutalbe** |
+| `Tuples` | **Immutalbe** |
 
 很多转专业的同学，计算机知识是残缺的，面试时候问点细微的地方可能就挂了，近期我重新读了下计算机科学概论，总结了以下知识点是需要掌握的，希望对大家有所帮助  
 
