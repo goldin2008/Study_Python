@@ -6,6 +6,7 @@ Using Python to Access Web Data – Chapters 11-13 (this course)
 Using Databases with Python – Chapters 14-15  
 Python for Informatics: Exploring Information  
 
+http://www.pythonlearn.com/slides/
 
 Summary for data structure
 
