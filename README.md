@@ -7,6 +7,16 @@ Using Databases with Python – Chapters 14-15
 Python for Informatics: Exploring Information  
 
 http://www.pythonlearn.com/slides/
+
+https://developers.google.com/edu/python/introduction
+
+http://www.diveintopython3.net/iterators.html
+
+http://www.bogotobogo.com/python/python_differences_between_static_method_and_class_method_instance_method.php
+
+
+
+
 ## Project
 > https://github.com/goldin2008/CS_Courses/blob/master/CSCE913_DATABASE/phylogenetic_subtree.py
 
