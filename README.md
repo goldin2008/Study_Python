@@ -7,6 +7,9 @@ Using Databases with Python – Chapters 14-15
 Python for Informatics: Exploring Information  
 
 http://www.pythonlearn.com/slides/
+## Project
+> https://github.com/goldin2008/CS_Courses/blob/master/CSCE913_DATABASE/phylogenetic_subtree.py
+
 
 Summary for data structure
 
