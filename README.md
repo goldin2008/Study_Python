@@ -21,7 +21,7 @@ http://www.bogotobogo.com/python/python_differences_between_static_method_and_cl
 > https://github.com/goldin2008/CS_Courses/blob/master/CSCE913_DATABASE/phylogenetic_subtree.py
 
 
-Summary for data structure
+# Summary for data structure
 
 | First Header  | Second Header |
 | ------------- | ------------- |
@@ -33,6 +33,25 @@ Summary for data structure
 | `Strings` | *Immutable* |
 | `Lists` | **Mutalbe** |
 | `Tuples` | **Immutalbe** |
+
+# Python Regular Expression Quick Guide
+
+|^        |Matches the beginning of a line|
+| --------| ------------- |
+|$        |Matches the end of the line|
+|.        |Matches any character|
+|\s       |Matches whitespace|
+|\S       |Matches any non-whitespace character|
+|*        |Repeats a character zero or more times|
+|*?       |Repeats a character zero or more times (non-greedy)|
+|+        |Repeats a character one or more times|
+|+?       |Repeats a character one or more times (non-greedy)|
+|[aeiou]  |Matches a single character in the listed set|
+|[^XYZ]   |Matches a single character not in the listed set|
+|[a-z0-9] |The set of characters can include a range|
+|(        |Indicates where string extraction is to start|
+|)        |Indicates where string extraction is to end|
+
 
 很多转专业的同学，计算机知识是残缺的，面试时候问点细微的地方可能就挂了，近期我重新读了下计算机科学概论，总结了以下知识点是需要掌握的，希望对大家有所帮助  
 
