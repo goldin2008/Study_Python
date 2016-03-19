@@ -15,7 +15,8 @@ http://www.diveintopython3.net/iterators.html
 http://www.bogotobogo.com/python/python_differences_between_static_method_and_class_method_instance_method.php
 
 
-
+## Introduction to Networking: How the Internet Works
+> http://www.net-intro.com/
 
 ## Project
 > https://github.com/goldin2008/CS_Courses/blob/master/CSCE913_DATABASE/phylogenetic_subtree.py
