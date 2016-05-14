@@ -14,6 +14,8 @@ http://www.diveintopython3.net/iterators.html
 
 http://www.bogotobogo.com/python/python_differences_between_static_method_and_class_method_instance_method.php
 
+## Python Library
+http://qxde01.blog.163.com/blog/static/67335744201368101922991/
 
 ## Introduction to Networking: How the Internet Works
 > http://www.net-intro.com/
