@@ -16,6 +16,7 @@ http://www.bogotobogo.com/python/python_differences_between_static_method_and_cl
 
 ## Python Library
 http://qxde01.blog.163.com/blog/static/67335744201368101922991/
+
 http://san-yun.iteye.com/blog/1935786
 
 ## Introduction to Networking: How the Internet Works
